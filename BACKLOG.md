@@ -1,7 +1,7 @@
 # PUC Dashboard — Backlog
 
-**Version:** 1.0.0
-**Last updated:** 2026-06-04 14:30 PHT
+**Version:** 1.0.1
+**Last updated:** 2026-06-04 16:00 PHT
 **Maintainer:** Angelo Madrid
 
 Pending work, open questions, and decisions to make. Items grouped by priority and theme.
@@ -58,7 +58,8 @@ data/
 
 ### Action items
 
-- [ ] Decide JSON schema conventions (date format, naming, optional fields)
+- [x] **Decide JSON schema conventions** (date format, naming, optional fields) — locked in `DATA_ARCHITECTURE.md` v1.0.0
+- [x] **Design the data folder structure** — store-first layout, monthly operating files, locked in `DATA_ARCHITECTURE.md` v1.0.0
 - [ ] Write a `data/README.md` explaining how Vincent updates the operating file weekly
 - [ ] Refactor Taytay dashboard to `fetch()` from JSON files instead of embedded `DATA` const
 - [ ] Add a validation pass (or just a smoke test) so a typo in JSON doesn't silently break the dashboard
@@ -167,6 +168,7 @@ The current weekly KPI dashboard could grow to include:
 
 ## 📝 Recently completed
 
+- ✅ **DATA_ARCHITECTURE.md v1.0.0 designed and locked** (2026-06-04). Store-first folder layout, monthly operating files, single-array financial files, per-store schemas, tiered lenient validation.
 - ✅ Built scaffolded GitHub repo `angelo-madrid/PUC_Dashboard` (June 2026)
 - ✅ GitHub Pages enabled, live at https://angelo-madrid.github.io/PUC_Dashboard/
 - ✅ Landing page with 10-store roadmap, Taytay LIVE + Stores 2-10 placeholders
@@ -179,4 +181,5 @@ The current weekly KPI dashboard could grow to include:
 
 | Version | Date | Author | Notes |
 |---|---|---|---|
+| 1.0.1 | 2026-06-04 | Angelo + Claude | Marked data architecture design items as completed (now specified in DATA_ARCHITECTURE.md v1.0.0). Updated recently completed section. |
 | 1.0.0 | 2026-06-04 | Angelo | Initial backlog. Captures landing page visual review items, May 31 capital call decisions, data architecture proposal (operating vs financial vs shared), and future enhancements. |
