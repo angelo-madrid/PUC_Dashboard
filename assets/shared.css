@@ -1,0 +1,17 @@
+/* PUC Dashboard — shared design tokens
+   Optional. Per-store dashboards are currently self-contained (styles inline).
+   Import this only if/when you want to centralize styling across stores. */
+
+:root {
+  --cream: #faf8f4;
+  --ink: #0f0e0c;
+  --muted: #6b6357;
+  --line: #e6e0d6;
+  --card: #fffdf9;
+  --accent: #b4541f;
+  --live: #2f7d4f;
+  --planned: #b8a98f;
+
+  --font-serif: "DM Serif Display", Georgia, serif;
+  --font-sans: "DM Sans", system-ui, sans-serif;
+}

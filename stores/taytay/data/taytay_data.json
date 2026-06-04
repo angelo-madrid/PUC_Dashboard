@@ -1,0 +1,22 @@
+{
+  "store": {
+    "id": 1,
+    "code": "TAYTAY",
+    "name": "Taytay",
+    "location": "Taytay, Rizal",
+    "status": "live",
+    "opened": null
+  },
+  "meta": {
+    "operator": "Nutrizone Food Corp",
+    "parent": "SP Madrid",
+    "franchise": "Pickup Coffee (PUC)",
+    "currency": "PHP",
+    "last_updated": "2026-06-04",
+    "note": "Placeholder. Data is currently embedded inline in index.html and will be migrated here in a later commit."
+  },
+  "daily_sales": [],
+  "pnl": [],
+  "debt_service": [],
+  "weekly_kpi": []
+}
